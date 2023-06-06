@@ -15,7 +15,7 @@ else:
     headers = list(input('What are the COLUMNS? :  ').replace(',',' ').split(' '))
     filename = input('CSV File Name? :')  # Choose the CSV file name or leave it blank.
     
-    csv_file_path = f'PATH TO YOU DIRECTORY/{filename}.csv' # Insert the PATH to directory.
+    csv_file_path = f'PATH/TO/YOU/DIRECTORY/{filename}.csv' # Insert the PATH to directory.
 
     num = 1
 
