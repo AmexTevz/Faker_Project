@@ -49,7 +49,6 @@ else:
             print('CSV File Created')
     else:
         print('CSV FILE SKIPPED')
-        pass
 
     d_headers = ['Id serial PRIMARY KEY']
     d_inserts = []
@@ -85,5 +84,5 @@ else:
 
     else:
         print('DATABASE TABLE SKIPPED')
-        pass
+
 
